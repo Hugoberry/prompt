@@ -1,0 +1,317 @@
+[
+    {
+        "Expressions and Values": {
+            "Rule": "Expressions evaluate to yield a value. Values can be literal (e.g., numbers, text) or the result of calculations.",
+            "Example": {
+                "Literal Value": "123, true, \"abc\", null",
+                "Expression Result": "1 + 1 // Results in 2"
+            }
+        },
+        "Evaluation": {
+            "Rule": "Expressions can reference other parts, determining calculation order by dependencies, akin to spreadsheet formulas.",
+            "Example": {
+                "Spreadsheet-like Dependency": "[A1 = A2 * 2, A2 = A3 + 1, A3 = 1] // Evaluates A3, then A2, then A1"
+            }
+        },
+        "Functions": {
+            "Rule": "Functions are defined with parameters and a body, mapping inputs to a single output.",
+            "Example": "(x, y) => (x + y) / 2 // Averages x and y"
+        },
+        "Library": {
+            "Rule": "M includes a standard library with predefined functions and constants.",
+            "Example": "Number.E // Euler's number"
+        },
+        "Operators": {
+            "Rule": "Operators perform actions on values, with behavior depending on operand types.",
+            "Example": {
+                "Addition": "1 + 1 // Numeric addition",
+                "Concatenation": "\"Hello\" & \" World\" // Text concatenation"
+            }
+        },
+        "Metadata": {
+            "Rule": "Metadata provides information about a value without affecting its behavior, using `meta`.",
+            "Example": "\"Data\" meta { Description: \"Sample data\" }"
+        },
+        "Let Expression": {
+            "Rule": "Defines variables within an expression's scope for complex computations.",
+            "Example": "let x = 10 in x + 1 // Defines x as 10, then uses it in an addition"
+        },
+        "If Expression": {
+            "Rule": "Evaluates expressions conditionally.",
+            "Example": "if x > 10 then x else x * 2 // Doubles x if it's not greater than 10"
+        },
+        "Errors": {
+            "Rule": "Errors signal evaluation failures, handled using `try` expressions.",
+            "Example": "try 1/0 otherwise \"Error\" // Handles division by zero error"
+        },
+        "Documents": "An M document is an ordered sequence of Unicode characters, consisting of one expression or groups of definitions organized into sections.",
+        "Grammar Conventions": {
+            "Non-terminal Symbols": "Defined using grammar productions with possible expansions.",
+            "Terminal Symbols": "Shown in fixed-width font."
+        },
+        "Lexical Analysis": "Translates a stream of Unicode characters into a stream of tokens.",
+        "Whitespace": {
+            "Includes": [
+                "Space",
+                "Horizontal tab",
+                "Vertical tab",
+                "Form feed",
+                "Newline characters"
+            ],
+            "Purpose": "Used to separate tokens within an M document."
+        },
+        "Comments": {
+            "Single-line": "Start with // and extend to the end of the line.",
+            "Delimited": "Start with /* and end with */, can span multiple lines."
+        },
+        "Tokens": {
+            "Comprise": [
+                "Identifiers",
+                "Keywords",
+                "Literals",
+                "Operators",
+                "Punctuators"
+            ],
+            "Separated by": "Whitespace and comments."
+        },
+        "Character Escape Sequences": {
+            "Use": "For including special characters in text literals.",
+            "Examples": {
+                "Carriage Return": "#(cr)",
+                "Line Feed": "#(lf)",
+                "Tab": "#(tab)",
+                "Escape Sequence Start": "#(#)"
+            }
+        },
+        "Records": {
+            "Rule": "Records are key-value pairs, and operations include equality, inequality, and merging.",
+            "Example": {
+                "Equality": "[a = 1, b = 2] = [b = 2, a = 1] // true",
+                "Merge": "[a = 1] & [b = 2] // [a = 1, b = 2]"
+            }
+        },
+        "Tables": {
+            "Rule": "Tables are sequences of rows, where each row is a record. Operations include table construction, equality, and concatenation.",
+            "Example": {
+                "Construction": "#table({\"Name\", \"Age\"}, {{\"John\", 30}, {\"Jane\", 25}})",
+                "Concatenation": "#table({\"A\"}, {{1}}) & #table({\"B\"}, {{2}}) // Table with columns A and B"
+            }
+        },
+        "Types Overview": {
+            "Rule": "Types classify values into categories such as primitive, record, list, function, table, nullable, and type types.",
+            "Example": {
+                "Primitive": "number, text, logical",
+                "Abstract": "function, table, any, none",
+                "Structured": "[X = number, Y = number] for records, {number} for lists"
+            }
+        },
+        "Type Classification": {
+            "Primitive Types": "Classify basic values like numbers, text, and logical values.",
+            "Record Types": "Based on field names and value types.",
+            "List Types": "Using a single item base type.",
+            "Function Types": "Based on parameter and return value types.",
+            "Table Types": "Based on column names, column types, and keys.",
+            "Nullable Types": "Classifies null and values of a base type.",
+            "Type Types": "Classify values that are types."
+        },
+        "Custom Types": {
+            "Rule": "Defined using a type-expression, allowing for the creation of types beyond the primitive set.",
+            "Example": {
+                "List of Numbers": "type {number}",
+                "Record with Specific Fields": "type [X = number, Y = number]"
+            }
+        },
+        "Type Operations": {
+            "is Operator": {
+                "Rule": "Determines if a value's type is compatible with a specified type.",
+                "Example": "1 is number // true"
+            },
+            "as Operator": {
+                "Rule": "Checks compatibility with a given type and returns the original value if compatible; otherwise, raises an error.",
+                "Example": "1 as number // Returns 1 if 1 is a number"
+            }
+        },
+        "Type Utilization": {
+            "Value.Type Function": {
+                "Rule": "Obtains the ascribed type of a value.",
+                "Example": {
+                    "Number": "Value.Type(2) // type number",
+                    "List": "Value.Type({2}) // type list",
+                    "Record": "Value.Type([X = 1, Y = 2]) // type record"
+                }
+            }
+        },
+        "Identifier References": {
+            "Exclusive": "Refers to variables within the current environment. Error if variable is not part of the environment or is being initialized.",
+            "Inclusive": "Used to access the environment that includes the identifier being initialized, useful for recursive functions."
+        },
+        "Value Types Overview": {
+            "Null": {
+                "Operations": "Comparisons (>, >=, <, <=, =, <>)",
+                "Native Type": "null"
+            },
+            "Logical": {
+                "Operations": "Comparisons, logical OR, AND, NOT",
+                "Native Type": "logical"
+            },
+            "Number": {
+                "Operations": "Arithmetic operations (+, -, *, /), comparisons, unary operations",
+                "Special Values": "Positive/negative zero, infinity, NaN",
+                "Native Type": "number"
+            },
+            "Time": {
+                "Construction": "#time(hour, minute, second)",
+                "Operations": "Comparisons, date-time operations",
+                "Native Type": "time"
+            },
+            "Date": {
+                "Construction": "#date(year, month, day)",
+                "Operations": "Comparisons, date operations",
+                "Native Type": "date"
+            },
+            "DateTime": {
+                "Construction": "#datetime(year, month, day, hour, minute, second)",
+                "Operations": "Comparisons, datetime operations",
+                "Native Type": "datetime"
+            },
+            "DateTimeZone": {
+                "Construction": "#datetimezone(year, month, day, hour, minute, second, offset-hours, offset-minutes)",
+                "Operations": "Comparisons, datetimezone operations",
+                "Native Type": "datetimezone"
+            },
+            "Duration": {
+                "Construction": "#duration(days, hours, minutes, seconds)",
+                "Operations": "Comparisons, duration arithmetic",
+                "Native Type": "duration"
+            },
+            "Text": {
+                "Operations": "Comparisons, concatenation",
+                "Native Type": "text"
+            },
+            "Binary": {
+                "Construction": "#binary(byte array)",
+                "Operations": "Comparisons",
+                "Native Type": "binary"
+            },
+            "List": {
+                "Operations": "Comparisons, concatenation",
+                "Native Type": "list"
+            },
+            "Record": {
+                "Operations": "Comparisons, merge",
+                "Native Type": "record"
+            },
+            "Table": {
+                "Construction": "#table(column names, row lists)",
+                "Operations": "Comparisons, concatenation",
+                "Native Type": "custom table type"
+            },
+            "Function and Type": {
+                "Details": "Described in respective chapters",
+                "Native Types": {
+                    "Function": "Described in Chapter 9",
+                    "Type": "Described in Chapter 5"
+                }
+            }
+        },
+        "Recursive Functions": {
+            "Definition": "Recursive functions are defined using the scoping operator (@) to reference the function within its own scope.",
+            "Example": {
+                "Simple Recursion": {
+                    "Code": "[ Factorial = (x) => if x = 0 then 1 else x * @Factorial(x - 1), Result = Factorial(3) ]",
+                    "Result": "6"
+                },
+                "Mutual Recursion": {
+                    "Code": "[ Factorial = (x) => if x = 0 then 1 else Factorial2(x), Factorial2 = (x) => x * Factorial(x - 1), Result = Factorial(3) ]",
+                    "Result": "6"
+                }
+            }
+        },
+        "Recursive Records": {
+            "Definition": "Records and other values can be cyclic, enabling recursive references within their definition.",
+            "Example": {
+                "Simple Cyclic Record": {
+                    "Code": "let l = {0 @l} in l",
+                    "Result": "{0 {0 {0 … }}}"
+                },
+                "Mutual Recursive Records": {
+                    "Code": "[A={B} B={A}]",
+                    "Result": "[A = {{ … }} B = {{ … }}]"
+                },
+                "Error on Direct Cyclic Reference": {
+                    "Code": "[A=B B=A]",
+                    "Result": "Error indicating a cyclic reference was encountered"
+                }
+            }
+        },
+        "Operator Precedence": "Defines how expressions are evaluated based on the hierarchy of operators. Higher precedence operators are evaluated before lower precedence ones.",
+        "Metadata Operators": "Discuss how metadata can be associated with values and how metadata is handled by various operations.",
+        "Structurally Recursive Operators": "Explains the handling of cyclic references and the behavior of operators in such contexts.",
+        "Selection and Projection Operators": {
+            "Item Access": "Access elements from lists or tables based on position or matching record criteria.",
+            "Field Access": "Retrieve values from records or project records/tables to fewer fields."
+        },
+        "Arithmetic Operators": {
+            "Addition": "Combines numbers, datetimes with durations, or durations with each other.",
+            "Subtraction": "Calculates differences between numbers, datetimes, or durations.",
+            "Multiplication": "Covers product operations for numbers and scaling of durations by numbers.",
+            "Division": "Involves dividing numbers or durations by numbers."
+        },
+        "Relational Operators": "Used to compare values, including special rules for null and NaN values.",
+        "Logical Operators": {
+            "AND": "Evaluates to true if both operands are true, with short-circuit evaluation.",
+            "OR": "Evaluates to true if at least one operand is true, also with short-circuit evaluation."
+        },
+        "Equality and Inequality Operators": "Determines equality or difference between two values, excluding metadata in comparisons.",
+        "Error Handling Overview": {
+            "Outcomes of Evaluation": [
+                "A single value is produced.",
+                "An error is raised indicating failure to produce a value."
+            ],
+            "Error Content": "An error contains a record value detailing the cause of the incomplete evaluation."
+        },
+        "Raising Errors": {
+            "Syntax": "error [expression]",
+            "Examples": {
+                "Simple Error": "error \"Hello world\"",
+                "Full Error Record": "error Error.Record(\"FileNotFound\", \"File my.txt not found\", \"my.txt\")"
+            },
+            "Behavior": "Raising an error stops the current evaluation and unwinds the stack until an error handler is reached."
+        },
+        "Handling Errors": {
+            "Syntax": "try [protected-expression] otherwise [default-expression]",
+            "Behavior": {
+                "Without Otherwise": "If protected-expression evaluates without error, its value is returned in a record indicating no error.",
+                "With Otherwise": "If an error occurs, the otherwise expression is evaluated as the result."
+            }
+        },
+        "Lexical Grammar": {
+            "Whitespace": "Defines spaces used to separate tokens in the document.",
+            "Comment": "Details single-line and multi-line comment formats.",
+            "Tokens": "Identifies the smallest elements of the language, such as identifiers, literals, operators.",
+            "Character Escape Sequences": "Explains how to represent special characters within text literals.",
+            "Literals": "Specifies the syntax for null, logical, number, and text literals.",
+            "Identifiers": "Outlines the rules for naming elements within the language.",
+            "Keywords and Predefined Identifiers": "Lists reserved words and predefined identifiers in M.",
+            "Operators and Punctuators": "Describes symbols used for operations and structuring code."
+        },
+        "Syntactic Grammar": {
+            "Documents": "Covers the structure of M documents, including expressions and sections.",
+            "Section Documents": "Details how documents can be divided into sections for modularity.",
+            "Expression Documents": {
+                "Expressions": "General rules for forming expressions.",
+                "Logical Expressions": "Rules for logical operations within expressions.",
+                "Is Expression": "Syntax for type checking.",
+                "As Expression": "Syntax for type assertion.",
+                "Equality Expression": "Defines equality and inequality checks.",
+                "Relational Expression": "Rules for greater than, less than comparisons.",
+                "Arithmetic Expressions": "Outlines arithmetic operations available in M.",
+                "Metadata Expression": "Describes how to associate and manipulate metadata.",
+                "Unary Expression": "Covers unary operations.",
+                "Primary Expression": "Basic expressions without operators.",
+                "Literal Expression": "Direct representation of values.",
+                "Identifier Expression": "Use of identifiers to reference values."
+            }
+        }
+    }
+]
