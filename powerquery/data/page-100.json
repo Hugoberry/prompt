@@ -1,0 +1,304 @@
+{
+    "msg_custom_field_list": [
+        {
+            "id": "2701314",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/how-to-convert-data-Q1-Q2-Q3-Q4-to-numeric-in-powerQuery-Editor/td-p/2701314",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3015517",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Auto-append-Google-Sheets-worksheets-for-monthly-data/td-p/3015517",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2855732",
+            "messages": "",
+            "messageOriginType": "",
+            "sourceIconType": ""
+        },
+        {
+            "id": "2604696",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Unpivot-Column-Load-Error/td-p/2604696",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2773631",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Extract-multiple-characters-from-a-string/td-p/2773631",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2647889",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Translate-query-in-M-language-quot-if-not-contains-quot/td-p/2647889",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "956246",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Rest-API-Dynamic-Date-Query/td-p/956246",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "265769",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Active-Directory-as-Datasource-and-On-Premise-Data-Gateway/td-p/265769",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "656180",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Postman-Collection-to-Power-BI-Connector/td-p/656180",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1428838",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Grouping-Date-sets-within-a-month/td-p/1428838",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "739963",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Reference-Parameter-from-within-Python-Script/td-p/739963",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2924726",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Convert-String-to-Duration/td-p/2924726",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1169349",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/M-to-append-queries/td-p/1169349",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2671158",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/List-Accumulate-add-multiple-conditional-columns/td-p/2671158",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3279122",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/How-to-find-the-last-weekday-of-a-month/td-p/3279122",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2959968",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-to-extract-a-specific-value-from-a-list-nested-in-a-table/td-p/2959968",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3290184",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/How-can-I-convert-a-table-with-duplicate-IDs-and-string-values/td-p/3290184",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3149628",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Pivot-after-unpivot-not-working/td-p/3149628",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3039309",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Filter-a-List-by-Character-List-of-Columns/td-p/3039309",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "713231",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Issue-with-conditional-column-null-values-since-update/td-p/713231",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2633918",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Power-Bi-rest-API-Custom-connector-Parameters-problem/td-p/2633918",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3315708",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Date-AddYears-based-on-interval-in-another-column/td-p/3315708",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1662445",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Json-API-with-header-details/td-p/1662445",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1811429",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/OLE-DB-or-ODBC-error-incorrect-syntax-near-the-keyword-union/td-p/1811429",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2103576",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Moving-and-Renaming-Excel-File/td-p/2103576",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2006574",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Adding-in-a-Date-Column-based-on-Start-Date-amp-End-Date/td-p/2006574",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2129918",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Power-query-is-loading-dates-as-date-time-in-spreadsheet/td-p/2129918",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3258958",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Formatting-data-from-multiple-variable-rows-to-one-single-row/td-p/3258958",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3283718",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Import-SQL-server-synonyms/td-p/3283718",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2113744",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Excel-formulas-in-Power-Query/td-p/2113744",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2892095",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Conditional-replace-value/td-p/2892095",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1461668",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Criei-uma-lista-de-consulta-porem-n%C3%A3o-consigo-passar-ela-no/td-p/1461668",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "700973",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/OData-feed-D365-Connection-Error/td-p/700973",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "737496",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Merging-data-based-on-a-partial-match/td-p/737496",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "130850",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/EXECUTE-Permission-denied/td-p/130850",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1913721",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Combine-files-with-extra-top-row-before-column-name/td-p/1913721",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2506018",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Parsing-JSON-String-within-Custom-Function/td-p/2506018",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3026535",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Second-Last-Value-threw-columns/td-p/3026535",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2916532",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/convert-text-to-date/td-p/2916532",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2384041",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Conditionally-transform-multiple-columns-in-single-step/td-p/2384041",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "843886",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Get-all-files-from-onedrive-folder-in-an-efficient-way/td-p/843886",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1390077",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Transform-lastLogon-into-date-in-power-query/td-p/1390077",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1403558",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/type-Text-Clean-in-between-white-space/td-p/1403558",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3446000",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Expression-Error-The-key-didn-t-match-any-rows-in-the-table/td-p/3446000",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "396289",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/This-visual-contains-one-or-more-filters-with-deleted-columns/td-p/396289",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3280782",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Asking-Writeback-into-Power-BI-Empty-Blank-Column/td-p/3280782",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "434563",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Implementation-2-0-SAP-Connector/td-p/434563",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2667746",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Random-Sorting-and-Grouping-into-10/td-p/2667746",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3113408",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-can-i-write-dax-for-same-version-no-for-max-line-no/td-p/3113408",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3058941",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Turning-Only-Some-Rows-into-Columns/td-p/3058941",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        }
+    ]
+}

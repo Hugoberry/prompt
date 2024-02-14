@@ -1,0 +1,304 @@
+{
+    "msg_custom_field_list": [
+        {
+            "id": "3238080",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Json-API-returning-two-different-lists/td-p/3238080",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "150924",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Auto-refresh-Google-Sheets-data/td-p/150924",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2612326",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Extract-text-from-string-using-list/td-p/2612326",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2075575",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Excel-file-where-comments-are-linked/td-p/2075575",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3078440",
+            "messages": "",
+            "messageOriginType": "",
+            "sourceIconType": ""
+        },
+        {
+            "id": "2827750",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/token-literal-expected/td-p/2827750",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2987998",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/how-to-add-a-new-column-based-on-two-condition-in-existing/td-p/2987998",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1745356",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Conditional-formatting-based-on-slicer-range-selection/td-p/1745356",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3106665",
+            "messages": "",
+            "messageOriginType": "",
+            "sourceIconType": ""
+        },
+        {
+            "id": "2764632",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Dynamic-Date-Slicer-with-Parallel-Dynamic-Period/td-p/2764632",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2634765",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Power-Query-Repeat-Loop-Table-Group-List-Average-function/td-p/2634765",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3323940",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Add-columns-to-identify-value-that-were-not-there-the-date/td-p/3323940",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "886299",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Can-t-connect-SQL-Server-using-some-other-credentials/td-p/886299",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "759652",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Removing-columns-containing-only-zeros/td-p/759652",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1794552",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Combine-multiple-tables-using-dynamic-list/td-p/1794552",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1790497",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-to-match-and-merge-two-tables-to-one-new-table/td-p/1790497",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "845106",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Replace-values-and-rename-headers-based-on-lookup-table/td-p/845106",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3159282",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Extract-dates-and-numbers/td-p/3159282",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1708590",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Merge-the-first-record-of-child-table/td-p/1708590",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3034842",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Folder-Query/td-p/3034842",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2248978",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Dynamic-combine-tables-from-existing-tables-with-table-Query/td-p/2248978",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1966065",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Filter-date-with-ODBC-database/td-p/1966065",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3106816",
+            "messages": "",
+            "messageOriginType": "",
+            "sourceIconType": ""
+        },
+        {
+            "id": "3095180",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/DAX-Matching-Any-String-of-Zero-or-more-characters/td-p/3095180",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2844469",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Grouping-every-100-items-in-a-column/td-p/2844469",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2700205",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Group-BY/td-p/2700205",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2855518",
+            "messages": "",
+            "messageOriginType": "",
+            "sourceIconType": ""
+        },
+        {
+            "id": "1202381",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Calculating-difference-between-two-dates-in-weeks-in-an-if/td-p/1202381",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2337680",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Compare-closest-date-between-2-tables/td-p/2337680",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "990027",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Strange-Data-Type-Conversion-from-Number-to-Text/td-p/990027",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2411949",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Add-column-previous-step-drill-down/td-p/2411949",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3075618",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/FILTER-with-ALL-still-returns-nothing/td-p/3075618",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "59014",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-to-refresh-using-REST-API-with-OAuth2/td-p/59014",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2574528",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-to-use-Table-Max/td-p/2574528",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3142598",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Search-for-Word-in-String-bring-back-Word/td-p/3142598",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3070377",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Concatenate-values-in-a-row-for-the-already-concatenated-values/td-p/3070377",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3420159",
+            "messages": "source|https://community.fabric.microsoft.com/t5/Power-Query/Grouping-in-Power-Query/td-p/3420159",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2347963",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Expression-Error-coming-up-and-cant-figure-out-why/td-p/2347963",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2467942",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Create-new-column-from-existing-columns/td-p/2467942",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2784393",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Web-based-cursor-pagination-issue/td-p/2784393",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1144205",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/filter-last-14-days/td-p/1144205",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "1195854",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Trying-to-get-decade-from-year/td-p/1195854",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2842247",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Can-t-find-document-Approval-Status/td-p/2842247",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3246053",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Creating-a-Custom-Column-to-Show-Instances-of-Primary-Key/td-p/3246053",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "941328",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Power-Query-Editor-Restricted-at-1000-Rows-Doesn-t-pull-in-new/td-p/941328",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2625559",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/How-to-calculate-machine-running-hours-of-each-day/td-p/2625559",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3191897",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Adding-more-steps-to-a-dataset/td-p/3191897",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3009745",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Duplicate-rows-based-on-criterias/td-p/3009745",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "2701314",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/how-to-convert-data-Q1-Q2-Q3-Q4-to-numeric-in-powerQuery-Editor/td-p/2701314",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        },
+        {
+            "id": "3015517",
+            "messages": "source|https://community.powerbi.com/t5/Power-Query/Auto-append-Google-Sheets-worksheets-for-monthly-data/td-p/3015517",
+            "messageOriginType": "source",
+            "sourceIconType": "partialSyndication"
+        }
+    ]
+}
